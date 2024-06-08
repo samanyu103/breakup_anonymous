@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.nav{
+    height:10vh;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height:inherit;
+}
+.list-item{
+    margin: 15px 30px;
+    color:white;
+    padding:10px;
+
+}
+.list-item:hover{
+    background-color: aliceblue;
+    color:black;
+    border-radius: 20%;
+}
