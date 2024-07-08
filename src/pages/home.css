@@ -99,10 +99,10 @@
 }
 @media (max-width:1050px) {
     .home{
-        flex-direction: column;
+        display: block;
     }
     .box1{
-        width:100%;
+        width:95%;
         height:60vh;
         padding:20px;
     }
