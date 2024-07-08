@@ -1,12 +1,24 @@
 import './App.css';
 import Nav from './components/nav';
 import Home from './pages/home';
+import Community from './pages/community';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+
+
 function App() {
   return (
-    <div className="homepage">
+    <BrowserRouter>
+      <div className="homepage">
       <Nav/>
-      <Home/>
-    </div>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route exact path="/community" element={<Community/>} />
+      </Routes>
+      </div>
+    
+    </BrowserRouter>
+
     );
 }
 

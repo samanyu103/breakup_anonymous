@@ -1,4 +1,5 @@
 import "./home.css";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -6,6 +7,7 @@ const Home = () => {
             <div className="box1">
                 <p className="content" id= "heading">Breakup-Anonymous</p>
                 <p className="content" id = "subheading">So that you don't break after a breakup</p>
+                <p className="content" id ="Jay">-Jay Shetty</p>
             </div>
             <div className="box2">
                 <div className="container1">
@@ -31,7 +33,7 @@ const Home = () => {
                             <img src="/images/journaling.png" alt="journaling" className="image" />
                         </div>
                         <div className="item">
-                            <span className="feature">Meditation</span>
+                            <span className="feature">Spirituality</span>
                             <img src="/images/meditation.jpeg" alt="meditation" className="image" />
                         </div>
                 </div>
@@ -40,10 +42,11 @@ const Home = () => {
                         <div className="quote">
                             <span>"If you're going through a difficult breakup, don't keep the pain to yourself. <br /> Talk about it with your loved ones and a professional. <br />You are not alone"</span>
                         </div>
-                        {/* <div className="quoter">
-                            <p>Geogia</p>
-                        </div> */}
+                        <div className="quoter">
+                         <p>Geogia</p>
                     </div>
+                    </div>
+
                 </div>
 
             </div>
