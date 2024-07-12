@@ -27,12 +27,36 @@
     width: 40px;
     background-color: white;
 }
+.hamburger{
+    position: absolute;
+    transition: all ease-in-out 0.2s;
+}
+.c1{
+    transform: rotate(45deg);
+    top: 5px;
+    position: relative;
+    transition: all ease-in-out 0.2s;
+}
+.c2{
+    display: none;
+    position: relative;
+    transition: all ease-in-out 0.2s;
+}
+.c3{
+    transform: rotate(-45deg);
+    top: -5px;
+    position: relative;
+    transition: all ease-in-out 0.2s;
+}
 @media (max-width:650px){
     .nav{
         display: block;
     }
     .list:nth-child(2){
         display: none;
+    }
+    .nbi{
+        display: block;
     }
     .list:nth-child(1){
         display: flex;
