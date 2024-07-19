@@ -9,3 +9,18 @@
     color: white;
     flex-direction: column;
 }
+.sub-cont{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 120px;
+    margin-left: 40px;
+}
+.sub-cont:nth-child(1) .paras{
+    border: 4px solid white;
+    padding: 10px 20px;
+    font-size: 35px;
+
+}

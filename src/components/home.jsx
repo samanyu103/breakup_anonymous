@@ -8,10 +8,11 @@ const Home = () => {
         <p className="paras">Breakup-Anonymous</p>
         </div>
         <div className="sub-cont">  
-        <p className="paras">So that you don't break after a breakup</p>
+        <p className="paras">"So that you don't break after a breakup"</p>
         <p className="paras">- Jay Shetty</p>
         </div>
       </div>
+      
     </div>
   )
 }

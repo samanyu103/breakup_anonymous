@@ -1,0 +1,15 @@
+
+.fea-grid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr ;
+    align-items: center;
+}
+.grid{
+    height: 50vh;
+    width: max-width;
+    background-color: rgb(0, 0, 136);
+}
