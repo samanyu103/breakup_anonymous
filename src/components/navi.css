@@ -6,7 +6,9 @@
 }
 .nav{
     display: flex;
-    background-color: lightseagreen;
+    position: absolute;
+    width: 100%;
+    background-color: white;
 }
 .list{
     display: flex;
@@ -16,7 +18,13 @@
 }
 .item{
     padding: 10px 20px;
-    color: white;
+    color: black;
+    margin: 0px 5px;
+}
+.list:nth-child(2) .item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
 .list:nth-child(1){
     display: none;

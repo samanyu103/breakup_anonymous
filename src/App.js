@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './components/home';
 // import Nav from './components/nav';
 // import Home from './pages/home';
 // import Community from './pages/community';
@@ -21,6 +22,7 @@ function App() {
     // </BrowserRouter>
     <div>
       <Navi/>
+      <Home/>
     </div>
 
     );
