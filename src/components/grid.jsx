@@ -3,30 +3,35 @@ import "./grid.css";
 const Grid = () => {
   return (
     <div className="fea-grid">
-      <div className="grid">
-          <span className="feature">Community</span>
-          <img src="/images/community.jpeg" alt="community" className="image" />
+      <div className='card'>
+        <img src="/images/community.jpeg" alt="community" className='img' />
+        <p className="title">Community </p>
+        <p className="des">Connect , share your problem with us we will help you from the hell</p>
       </div>
-      <div className="grid">
-          <span className="feature">Resources</span>
-          <img src="/images/resources.png" alt="resources" className="image" />
+      <div className='card'>
+        <img src="/images/community.jpeg" alt="community" className='img' />
+        <p className="title">Community </p>
+        <p className="des">Connect , share your problem with us we will help you from the hell</p>
       </div>
-      <div className="grid">
-          <span className="feature">Therapy</span>
-          <img src="/images/therapy.png" alt="therapy" className="image" />
+      <div className='card'>
+        <img src="/images/community.jpeg" alt="community" className='img' />
+        <p className="title">Community </p>
+        <p className="des">Connect , share your problem with us we will help you from the hell</p>
       </div>
-
-      <div className="grid">
-          <span className="feature">Activities</span>
-          <img src="/images/gym.jpeg" alt="activities" className="image" />
+      <div className='card'>
+        <img src="/images/community.jpeg" alt="community" className='img' />
+        <p className="title">Community </p>
+        <p className="des">Connect , share your problem with us we will help you from the hell</p>
       </div>
-      <div className="grid">
-          <span className="feature">Journaling</span>
-          <img src="/images/journaling.png" alt="journaling" className="image" />
+      <div className='card'>
+        <img src="/images/community.jpeg" alt="community" className='img' />
+        <p className="title">Community </p>
+        <p className="des">Connect , share your problem with us we will help you from the hell</p>
       </div>
-      <div className="grid">
-          <span className="feature">Spirituality</span>
-          <img src="/images/meditation.jpeg" alt="meditation" className="image" />
+      <div className='card'>
+        <img src="/images/community.jpeg" alt="community" className='img' />
+        <p className="title">Community </p>
+        <p className="des">Connect , share your problem with us we will help you from the hell</p>
       </div>
     </div>
   )

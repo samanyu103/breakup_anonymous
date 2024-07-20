@@ -1,4 +1,5 @@
 import './App.css';
+import Card from './components/card';
 import Grid from './components/grid';
 import Home from './components/home';
 // import Nav from './components/nav';
