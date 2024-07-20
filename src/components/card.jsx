@@ -6,7 +6,7 @@ const Card = () => {
     <div className='card'>
         <img src="/images/community.jpeg" alt="community" className='img' />
         <p className="title">Community </p>
-        <p className="des">Connect , share your problem with us we will help you from the hell</p>
+        <p className="des">Connect with others going through a similar situation</p>
     </div>
   )
 }

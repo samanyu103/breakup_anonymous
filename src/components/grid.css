@@ -1,13 +1,15 @@
 
 .fea-grid{
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    grid-template-columns:repeat(6,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
+    /* gap: 20px; */
     align-items: center;
 }
 .card{
-    width: 200px;
+    width: 140px;
+    height:250px;
     box-shadow: 2px 2px 4px 2px rgb(168, 168, 168);
     
 }
@@ -20,7 +22,7 @@
 }
 .title{
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
 }
 .des{
     color: rgb(168, 168, 168);
