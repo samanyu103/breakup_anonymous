@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+}
+.s-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.list-card {
+    display: flex;
+    width: 500px;
+    height:200px;
+    box-shadow: 2px 2px 4px 2px rgb(168, 168, 168);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img{
+    width: 200px;
+    /* box-shadow:  2px 2px 4px 2px rgb(168, 168, 168); */
+}
