@@ -7,6 +7,7 @@
     grid-template-columns: 1fr 1fr;
     padding-top: 40px;
     gap: 20px;
+    /* justify-items: center; */
 
 }
 .list-cc{
@@ -14,10 +15,10 @@
     display: flex;
     align-items: center;
 }
-.list-cc:nth-child(1) , .list-cc:nth-child(3){
+.list-cc:nth-child(1) , .list-cc:nth-child(3), .list-cc:nth-child(5){
     justify-content: flex-end;
 }
-.list-cc:nth-child(2) , .list-cc:nth-child(4){
+.list-cc:nth-child(2) , .list-cc:nth-child(4), .list-cc:nth-child(6){
     justify-content: flex-start;
 }
 .list-card {
@@ -25,6 +26,7 @@
     width: max-content;
     padding: 10px 30px;
     height:200px;
+    width:300px;
     box-shadow: 2px 2px 4px 2px rgb(168, 168, 168);
     justify-content: center;
     align-items: center;
@@ -32,6 +34,10 @@
 
 
 .img{
-    width: 200px;
+    width: inherit;
     /* box-shadow:  2px 2px 4px 2px rgb(168, 168, 168); */
+}
+
+.title{
+    margin:20px;
 }

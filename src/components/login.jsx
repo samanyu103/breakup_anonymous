@@ -14,7 +14,7 @@ const Login = () => {
                 <button class="btn" id="signup" onClick={()=>{seti(!i)}} >SignUp</button>
             </form>
         </div>
-        <div id = "submit-box" class={i?"active":"active"}>
+        <div id = "submit-box" class={i?"active":"not-active"}>
             <form class="signup">
                 <input type="email" class="field" id="username" name="username" placeholder="username"/>
                 <input type="password" class="field" id="password" name="password" placeholder="password"/>
