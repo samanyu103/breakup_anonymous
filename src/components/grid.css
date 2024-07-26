@@ -4,17 +4,19 @@
     display: grid;
     grid-template-columns:repeat(6,1fr);
     /* grid-template-rows: repeat(2,1fr); */
-    /* gap: 20px; */
+    gap: 20px;
     align-items: center;
+    padding: 10px;
 }
 .card{
-    width: 140px;
-    height:250px;
+    width: 200px;
+    height:275px;
     box-shadow: 2px 2px 4px 2px rgb(168, 168, 168);
-    
+    text-align: center;
 }
 .img{
-    width: inherit;
+    width: 200px;
+    height:200px;
     /* box-shadow:  2px 2px 4px 2px rgb(168, 168, 168); */
 }
 .card p{

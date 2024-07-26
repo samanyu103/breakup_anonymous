@@ -3,18 +3,29 @@
     padding:0;
 }
 .s-list{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+    gap: 20px;
+
+}
+.list-cc{
+    width: 100%;
+    display: flex;
     align-items: center;
-    padding: 10px;
+}
+.list-cc:nth-child(1) , .list-cc:nth-child(3){
+    justify-content: flex-end;
+}
+.list-cc:nth-child(2) , .list-cc:nth-child(4){
+    justify-content: flex-start;
 }
 .list-card {
     display: flex;
-    width: 500px;
+    width: max-content;
+    padding: 10px 30px;
     height:200px;
     box-shadow: 2px 2px 4px 2px rgb(168, 168, 168);
-    margin: 10px;
     justify-content: center;
     align-items: center;
 }
