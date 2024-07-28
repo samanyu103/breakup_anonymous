@@ -1,5 +1,8 @@
 import React from 'react'
 import "./grid.css";
+import { Link } from 'react-router-dom';
+
+
 const Grid = () => {
   return (
     <div className="fea-grid">
@@ -28,11 +31,14 @@ const Grid = () => {
         <p className="title">Journaling </p>
         <p className="des">Write down what is going on in your head</p>
       </div>
+      <Link to = "/spirituality">
       <div className='card'>
         <img src="/images/meditation.jpeg" alt="community" className='img' />
         <p className="title">Spirituality </p>
         <p className="des">Discover yourself</p>
       </div>
+      </Link>
+
     </div>
   )
 }
