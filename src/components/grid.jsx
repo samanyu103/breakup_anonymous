@@ -21,11 +21,13 @@ const Grid = () => {
         <p className="title">Therapy </p>
         <p className="des">Talk to a therapist</p>
       </div>
+      <Link to = "/activities">
       <div className='card'>
         <img src="/images/gym.jpeg" alt="community" className='img' />
         <p className="title">Activities </p>
         <p className="des">Mental and physical exercises</p>
       </div>
+      </Link>
       <div className='card'>
         <img src="/images/journaling.png" alt="community" className='img' />
         <p className="title">Journaling </p>

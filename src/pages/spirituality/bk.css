@@ -1,0 +1,22 @@
+
+.big{
+    margin: 10px;
+}
+
+.people_photos{
+    display:flex;
+    justify-content: center;
+}
+
+.personcard{
+    text-align: center;
+    margin:40px;
+}
+.img{
+    width:200px;
+    height:250px;
+}
+.personcard p{
+    font-size: 1em;
+}
+

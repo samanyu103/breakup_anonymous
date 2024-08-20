@@ -6,7 +6,7 @@ import './community.css';
 
 const Community = () => {
   
-    const [cur_messager, set_cur_messager] = useState('hi');
+    const [cur_messager, set_cur_messager] = useState('messager1');
 
   
     return (

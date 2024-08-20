@@ -1,0 +1,20 @@
+.activities{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.butn{
+    color:black;
+    padding: 5px;
+    margin:10px;
+}
+#active{
+    display:flex;
+}
+#not-active{
+    display: none;
+}
