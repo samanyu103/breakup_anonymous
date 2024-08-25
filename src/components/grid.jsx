@@ -6,11 +6,13 @@ import { Link } from 'react-router-dom';
 const Grid = () => {
   return (
     <div className="fea-grid">
+      <Link to = "/login">
       <div className='card'>
         <img src="/images/community.jpeg" alt="community" className='img' />
         <p className="title">Community </p>
         <p className="des">Connect with others going through similar situation</p>
       </div>
+      </Link>
       <div className='card'>
         <img src="/images/resources.png" alt="community" className='img' />
         <p className="title">Resources </p>

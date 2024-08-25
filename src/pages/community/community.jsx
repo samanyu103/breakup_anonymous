@@ -6,19 +6,29 @@ import './community.css';
 
 const Community = () => {
   
-    const [cur_messager, set_cur_messager] = useState('messager1');
+    const [cur_messager, set_cur_messager] = useState('');
 
   
     return (
+    
+    <div>
+    <div className="gap"></div>
+
     <div className='bigfellow'>
         <div className="leftfellow">
-            <div className="topleft" >Name of User</div>
+            <div className="topleft" onClick={()=>{
+                set_cur_messager('');
+            }}>Name of User</div>
             <div className="bottomleft">
                 {/* for each messeger one div */}
-                <div className="messeger">
+                <div className="messeger" onClick={()=>{
+                    set_cur_messager('messager1');
+                }}>
                     messeger1
                 </div>
-                <div className="messeger">
+                <div className="messeger" onClick={()=>{
+                    set_cur_messager('messager2')
+                }}>
                     messeger2
                 </div>
             </div>
@@ -41,6 +51,7 @@ const Community = () => {
             </div>
         </div>
         
+    </div>
     </div>
   )
 }

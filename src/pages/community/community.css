@@ -1,19 +1,22 @@
-
+.gap{
+    height:5vh;
+}
 
 .bigfellow{
     margin:0px;
     padding:0px;
-    height:100vh;
+    height:95vh;
     display:flex;
 }
+
 .leftfellow{
     width:30%;
-    height:100vh;   
+    height:95vh;   
     /* background-color: aqua; */
 }
 .rightfellow{
     width:70%;
-    height:100vh;
+    height:95vh;
     /* background-color: rgb(60, 60, 60); */
 }
 .topleft{
